@@ -1,0 +1,43 @@
+.product{
+   display: flex;
+   flex-wrap: wrap;
+   height: fit-content;
+  margin: 3%;   
+  gap:15%;
+}
+.quantity{
+   display: flex; 
+   align-items: center;
+}
+.quantity>button{
+ margin: 0.5rem;
+ 
+}
+.product> p{
+   width: 75%;
+   margin: 0px;
+   padding: 0px;
+}
+.productbtn{
+   width: 8rem;
+   height: 2rem;
+   border-radius: 10px;
+   margin: 2% 1%;  
+}
+.fullsizeimage{
+   width: 30rem;
+   height: 30rem;
+}
+.productdetails{
+   width:40%;
+}
+.productdetails > h6{
+  font-size: 2rem;
+  margin: 0%;
+  font-weight: 400;
+}
+.productdetails > h5{
+   font-size: 1.2rem;
+  margin: 0%;
+  font-weight: 400;
+}

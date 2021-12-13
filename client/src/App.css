@@ -1,0 +1,214 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1%;
+  margin: 5%;
+  margin-left: 17%;
+}
+
+@media (min-width:700px)
+{
+  .container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:11%;
+  gap: 6%;
+  row-gap: 12%;
+
+}
+}
+@media (min-width:1000px)
+{
+  .container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin:11%;
+  gap: 3%;
+  row-gap: 12%;
+border-radius: 50%;
+
+}
+}
+.modal
+{
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom:0;
+  top:0;
+ opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbe8ce;
+  transition: all 0.3s ease-in-out ;
+}
+.modalarea
+{
+  border: 3px solid yellow;
+  width: 50vw;
+  height: 70vh;
+  overflow:scroll;
+  background-color:beige;
+}
+.modalheaders
+{
+  background-color: #212529;
+  display: flex;
+  justify-content: flex-end;
+}
+.modalcontent{
+  /* background-color: #212529; */
+}
+
+.component
+{
+  border:1px solid black;
+  padding: 5%;
+  padding-bottom: 8%;
+  display: flex;
+  gap:8%;
+  width:40vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  max-height: 1rem;
+}
+span
+{
+  color:red;
+  font-weight: 400;
+}
+.tab
+{
+  margin: 1%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  border: 1px solid  #a39e9e;
+  /* max-width: 14rem;
+  max-height: 250rem; */
+ 
+  border-radius: 8px;
+  overflow: hidden;
+}
+.picture
+{
+  
+  display: flex;
+  justify-content: center;
+    /* align-items: center; */
+    font-size: x-large;
+    color: grey;
+    height: 13rem; 
+    width: 100%;
+border-bottom:1px solid #a39e9e;
+
+}
+.productpicture{
+  /* object-fit:cover; */
+  position: center;
+  width:100%;
+}
+.details
+{
+  margin-top: 2.2rem;
+  padding: 5%;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+
+}
+
+.prdname
+{
+  margin: 0px;
+  padding: 0px;
+  font-weight:700;
+  font-size: larger;
+}
+
+.component > p
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+.component > .removebtn
+{
+margin-top: 1%;
+height: 1.2rem;
+margin-left: auto;
+
+}
+.button
+{
+  margin-top: 15%;
+  padding: 3%;
+  background-color: #ffff;
+  border: 0.6px solid black;
+  border-radius: 5px;
+}
+
+.navbar
+{
+  display: flex;
+  background-color: #DEE1E6;
+  gap:2%;
+
+}
+ .navbar > h4,.navbarbtn >button{
+  cursor: pointer;
+} 
+.navbarbtn{
+margin-left: auto;
+
+}
+.navbar > h4{
+  font-size: 1.5rem;
+  margin: auto 10px;
+}
+.cartbtn
+{
+  margin-top: 0.7rem;
+ height: 2rem;
+ margin: 10px;
+
+}
+.header
+{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color:#212529;
+   height: 20rem;
+  width:100%;
+ 
+}
+.decriptionone
+{
+  padding: 0px;
+  margin: 0px;
+  font-weight: bolder;
+  font-size: 3rem;
+  color:white;
+}
+.decriptiontwo{
+ padding: 0px;
+ margin: 0px;
+ font-size: 1.2rem;
+ color: #909294;
+  
+} 
+
+
+ 
