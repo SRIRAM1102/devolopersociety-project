@@ -1,0 +1,176 @@
+.questioncontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.values {
+  border: 1px solid rgb(192, 192, 192);
+  border-left: none;
+  border-right: none;
+  margin: 2%;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: 8rem 29rem;
+
+  width: 35vw;
+}
+.valuesside > p {
+  margin: 0px;
+
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.contentside > p {
+  margin-top: 1%;
+  font-size: 0.9rem;
+}
+.tags {
+  display: flex;
+  gap: 3%;
+  margin-top: 2%;
+}
+.tags > h6 {
+  background: #d0e3f1;
+  padding: 3%;
+  font-weight: 400;
+  cursor: pointer;
+}
+.questionlayout {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+h5 {
+  font-size: 1.4rem;
+  font-weight: 350;
+}
+
+#linktag {
+  text-decoration: none;
+}
+
+.questioncontent > .questionlayout > button,
+.questionlayout > button,.contentside-qns>form>button {
+  background: rgb(36, 131, 255);
+  padding: 0.8%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.contentside-qns>form>button {
+  margin-bottom: 2rem;
+}
+.contentside-qns{
+  margin-top: -8.5rem;
+}
+
+.answercomponent {
+  display: flex;
+  gap: 3%;
+  margin-top: 2rem;
+}
+.answercomponent > h5 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+
+
+#answerframe > p,
+#answerframe > h6,
+.questionpage-content>.contentside-qns> h5 {
+  text-align: right;
+  margin-right: 3rem;
+  font-size: 1rem;
+  
+ }
+ @media (min-width: 100px) {
+  .votesside{
+    margin-left: -2rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: gray;
+  } 
+  .questionpage-content{
+    margin-left: 3rem;
+  }
+}
+@media (min-width: 300px) {
+  .votesside{
+    margin-left: -2.5rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: gray;
+  } 
+}
+@media (min-width: 700px) {
+  .votesside{
+    margin-left: -4rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: gray;
+  } 
+}
+.votesside>p{
+ cursor: pointer;
+}
+.contentside-qns>h6{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.questionpage-content>.contentside-qns>h4{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+#answerframe > .userqnsdetails > h6,
+.questionpage-content > h5,
+.userqnsdetails > h6{
+  font-weight: 350;
+  font-size: 0.8rem;
+}
+.questiontags{
+  display: flex;
+  gap: 1%;
+  font-weight: 200;
+  margin-top: 4%;
+}
+.questiontags>h6{
+  font-weight: 200;
+  background: #d0e3f1;
+  padding: 0.5% 0.8%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#answerframe > hr {
+  width: 100%;
+  margin: auto;
+}
+.contentside > p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.userqnsdetails {
+  display: flex;
+  justify-content: end;
+  margin-right: 3rem;
+  gap:1%;
+  margin-bottom: 2%;
+ 
+}
+.useravatarhome{
+  border: 1px solid black;
+  background: #BF360C;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size:1.3rem;
+  text-align:center;
+}
+
+.userqnsdetails > img {
+  width: 2rem;
+  height: 2rem;
+}

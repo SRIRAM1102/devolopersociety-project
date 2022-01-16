@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #f8f9f9;
+  border-top: 5px solid orange;
+  height: 5vh;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  position: fixed;
+  width: 100%;
+}
+.siteheading {
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.credentials{
+  display: flex;
+
+}
+.navbtn {
+  margin-right: 3rem;
+  cursor: pointer;
+  width:5rem;
+  height: 2rem;
+}
+
+.signup{
+  padding: 2%;
+  margin-right: 2%;
+  cursor: pointer;
+  background: orange;
+  color: white;
+  margin-right: 3rem;
+  width:5rem;
+  height: 2rem;
+}
+.linktag {
+  text-decoration: none;
+}

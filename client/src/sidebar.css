@@ -1,0 +1,33 @@
+.sidebar {
+  width: 15%;
+  height: 100%;
+
+  position: fixed;
+  margin-top: 5rem;
+  border-right: 3px solid orange;
+}
+.sidebarcontent {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.1rem;
+  color: rgb(121, 121, 121);
+}
+.sidebarcontent > p,
+.sidebarcontent > Link {
+  margin-top: 3rem;
+}
+
+.innerdetails {
+  margin-top: 2rem;
+}
+.linktagside {
+  cursor: pointer;
+  color: rgb(121, 121, 121);
+  text-decoration: none;
+}
+.linktagside:hover {
+  color: black;
+}
+.leftside {
+  margin-left: 3rem;
+}

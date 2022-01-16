@@ -1,0 +1,59 @@
+@media (min-width: 720px) {
+  .detailcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .detailcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1300px) {
+  .detailcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.userheader {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 2%;
+}
+
+.useravatar {
+  border: 1px solid black;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+
+  font-size: 2rem;
+  background: #bf360c;
+  color: white;
+}
+.details {
+  display: grid;
+  grid-template-columns: 4.5rem 9rem;
+  width: fit-content;
+  margin: 1.5%;
+}
+
+.usercontent > p,
+.usercontent > h6 {
+  margin: 0px;
+}
+.location {
+  font-size: 0.8rem;
+}
+.userimage {
+  position: center;
+  height: 3.5rem;
+  width: 4rem;
+}
+.username {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 1rem;
+}

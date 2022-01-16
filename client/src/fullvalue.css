@@ -1,0 +1,11 @@
+.questionpage-content > h6 {
+  margin: 0%;
+  font-size: 2rem;
+  font-weight: 350;
+}
+.questionpage-content > form > button {
+  background: rgb(36, 131, 255);
+  padding: 0.8%;
+  border-radius: 5px;
+  border: none;
+}

@@ -1,0 +1,27 @@
+#askquestion > h5,
+.questionlayout > h6 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.askqnscontent > p {
+  margin: 0px;
+  padding: 0px;
+}
+.askqnscontent {
+ 
+  border: 1px solid black;
+  padding: 1%;
+  /* margin: 2%; */
+  margin: 3rem 0rem;
+}
+.askqnscontent > form > input {
+  width: 42rem;
+  height: 2rem;
+}
+.askqnscontent > form > button {
+  background: rgb(36, 131, 255);
+  padding: 0.8%;
+  border-radius: 5px;
+  border: none;
+  cursor:pointer;
+}

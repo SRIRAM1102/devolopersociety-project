@@ -1,28 +1,40 @@
+import { Link } from "react-router-dom";
+import "./navbar.css";
 import { useHistory } from "react-router";
 
-export function Navbar({ showdata }) {
+export function Navbar() {
   const history = useHistory();
-
-  function logoutHandler() {
-    localStorage.removeItem("userid");
-    localStorage.removeItem("token");
-    localStorage.removeItem("carthistory");
-    localStorage.removeItem("buyhistory");
-    localStorage.removeItem("productdata");
-    alert("account has been logout");
+  function logouthandler() {
+    sessionStorage.removeItem("token");
+    sessionStorage.removeItem("userid");
+    sessionStorage.removeItem("questiondata");
+    alert("account has been logout"); 
+    history.push("./question");
+    window.location.reload(); 
   }
-  return (
-    <div className="navbar">
-      <h4 onClick={() => history.push("/")}><i>Shoptronics</i></h4>
-      <div className="navbarbtn">
-        <button className="cartbtn" onClick={() => showdata()}>
-          🛒Cart/
-          <br />
-          Orders
-        </button>
-        <button className="cartbtn" onClick={() => logoutHandler()}>
-          Logout
-        </button>
+  return ( 
+    <div>
+      <div className="navbar">
+        <p className="siteheading" onClick={()=>history.push("/question")}>
+          Devolopers<b>Society</b>
+        </p>
+
+    
+
+        {sessionStorage.getItem("token") ? (
+      <button onClick={() => logouthandler()} className="navbtn">Logout</button>
+     
+      ) : (
+          <div className="credentials">
+        <button onClick={()=>  history.push("/login")} className="navbtn">
+           Login
+          </button>
+            <button onClick={()=>  history.push("/signup")} className="navbtn signup">
+            Signup
+           </button>
+           </div>
+      )}
+        
       </div>
     </div>
   );

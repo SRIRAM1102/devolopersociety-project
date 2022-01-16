@@ -1,0 +1,56 @@
+.compmaincontent {
+  margin: 2%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.companies {
+  display: grid;
+  grid-template-columns: 11rem 28rem;
+  border: 0.5px solid rgb(192, 192, 192);
+  border-left: none;
+  border-right: none;
+  padding: 1%;
+  width: fit-content;
+  margin: 1%;
+}
+.companyimg {
+  height: 8rem;
+  width: 8rem;
+}
+.abtcompany{
+  margin-top: 2%;
+  display: flex;
+  margin-left: -1rem;
+  align-items: center;
+}
+.abtcompany>h6{
+  font-weight: 300;
+  font-size: 1rem;
+}
+.compdescription>.abtcompany> img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 3%;
+}
+.compdescription > h6{
+  
+  font-size: 1.1rem;
+
+}
+.compdescription > h6>a{
+  text-decoration: none;
+  color: rgb(36, 131, 255);
+}
+.compsec > h6 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.compsec > p {
+  width: 2%;
+}
+.companylayout>h6{
+font-weight: 400;
+font-size: 2rem;
+}

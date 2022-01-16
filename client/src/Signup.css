@@ -1,38 +1,51 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 .welcomelayout {
   height: 100vh;
-  background: black;
+
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .welcomelayout > form {
   border-radius: 20px;
   width: fit-content;
   padding: 3% 5%;
   height: fit-content;
-  background: white;
- }
-.welcomelayout >form > button{
-margin: 1%;
-border-radius: 10px;
-color: white;
-background: black;
-padding: 5%;
+  border: 1px solid orange;
 }
-.welcomelayout > label{
-color:red;
-font-weight: 800;
+.welcomelayout > form > button {
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  background: black;
+  padding: 5%;
+  cursor: pointer;
 }
-.welcomelayout >form > h6{
-font-size: 0.7rem;
+.welcomelayout > label {
+  color: red;
+  font-weight: 800;
 }
-.linkbar{
-text-decoration: none;
+.welcomelayout > form > h6 {
+  font-size: 0.7rem;
+}
+.linkbar {
+  text-decoration: none;
 }
 span {
   color: red;
 }
+.navbar { 
+  display: none;
+}
+.welcomelayout > form > label {
+
+  font-size:1.3rem;
+  }
+  .welcomelayout > form > input {
+    height: 1.5rem;
+    border-radius: 5px;
+    width: 12rem;
+  }
